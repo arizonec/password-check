@@ -1,0 +1,93 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+
+
+
+
+body {
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+.password {
+    position: relative;
+    margin-bottom: 40px;
+}
+.password__input {
+    width: 400px;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    outline: none;
+}
+.password__button {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border: none;
+}
+
+.password img {
+    width: 25px;
+}
+.advice {
+    height: 200px;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    width: 400px;
+    font-size: 20px;
+}
+.advice__title {
+    margin-bottom: 30px;
+    display: block;
+}
+.advice__list {
+    margin-bottom: 10px;
+    display: block;
+}
+.advice__length {
+    margin-bottom: 10px;
+    display: block;
+}
+.advice__symbold {
+    margin-bottom: 10px;
+    display: block;
+}
+.advice__numbers {
+    margin-bottom: 10px;
+    display: block;
+}
+.label{
+    color: gray;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
